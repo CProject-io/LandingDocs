@@ -1,120 +1,111 @@
-# LandingDocs
-# C-Project: Repositorio Oficial
+LandingDocs
+C-Project: Official Repository
+Welcome to the official repository of C-Project. This document outlines the project's management, contribution, and governance policies.
 
-Bienvenido al repositorio oficial de C-Project. Este documento describe las políticas de administración, contribución y gobernanza del proyecto.
+📜 Git Repository Management Policy
+📌 1. Repository Structure
+The repository is organized into the following main branches:
 
-## 📜 Política de Administración del Repositorio Git
+main (or master): Stable production code. Updated only through reviewed and approved pull requests (PRs).
+develop: Development branch where changes are integrated before merging into main.
+feature/{name}: Branches for new features (Example: feature/implement-pog).
+bugfix/{name}: Branches for fixing identified bugs (Example: bugfix/fix-energy-validation).
+hotfix/{name}: Branches for critical fixes in the main.
+📌 2. Branching Strategy (Git Flow)
+1️⃣ New features or fixes → Create a feature/{name} or bugfix/{name} branch from develop.
+2️⃣ Development and testing → Work on the branch and test the code.
+3️⃣ Pull Request (PR) to develop → Review by other members before merging.
+4️⃣ Integration into develop → Merge the change once approved.
+5️⃣ Production releases → When develop is ready, create a release/{version} and merge it into main.
+6️⃣ Urgent fix in main → Create a hotfix/{name} from main, fix, and merge into both main and develop.
 
-### 📌 1. Estructura del Repositorio
-El repositorio se divide en las siguientes ramas principales:
+📌 3. Contributions and Reviews
+✔ Contribution Rules:
 
-- **main (o master)**: Código estable en producción. Se actualiza solo mediante pull requests (PRs) revisadas y aprobadas.
-- **develop**: Rama de desarrollo donde se integran cambios antes de fusionarlos en main.
-- **feature/{nombre}**: Ramas para nuevas funcionalidades (Ejemplo: `feature/implement-pog`).
-- **bugfix/{nombre}**: Ramas para corregir errores identificados (Ejemplo: `bugfix/fix-energy-validation`).
-- **hotfix/{nombre}**: Ramas para correcciones críticas en main.
+Every contribution should be in a specific branch (feature/, bugfix/).
+A clear description is required in PRs.
+Prefer small, well-documented commits.
+✔ Review Process:
 
-### 📌 2. Estrategia de Branching (Git Flow)
+All PRs must be reviewed by at least 2 members before approval.
+Automated checks (CI/CD) are used for code validation and testing.
+Discussions on PRs are encouraged before merging.
+✔ Commit Style (Conventional Commits):
 
-1️⃣ **Nuevas características o correcciones** → Crear una rama `feature/{nombre}` o `bugfix/{nombre}` desde `develop`.  
-2️⃣ **Desarrollo y pruebas** → Se trabaja en la rama correspondiente y se testea el código.  
-3️⃣ **Pull Request (PR) a develop** → Revisión por otros miembros antes de fusionar.  
-4️⃣ **Integración en develop** → Se fusiona el cambio una vez aprobado.  
-5️⃣ **Lanzamientos a producción** → Cuando `develop` está listo, se genera una versión (`release/{versión}`) y se fusiona en `main`.  
-6️⃣ **Corrección urgente en main** → Se crea un `hotfix/{nombre}` desde `main`, se corrige y se fusiona en `main` y `develop`.
+bash
+Copiar
+Editar
+type(scope): short description in present tense
+Examples:
+✅ feat(consensus): implement Proof-of-Generation validation
+✅ fix(api): correct energy audit timestamp format
+✅ docs(readme): update contributing guidelines
 
-### 📌 3. Contribuciones y Revisiones
+Valid Commit Types:
 
-✔ **Reglas para contribuir:**
-- Cada contribución debe ir en una rama específica (`feature/`, `bugfix/`).
-- Se requiere una descripción clara en los PRs.
-- Se recomienda usar commits pequeños y bien documentados.
+feat: New feature.
+fix: Bug fix.
+docs: Documentation changes.
+style: Code formatting without affecting functionality.
+refactor: Code restructuring without functional changes.
+test: Add or modify tests.
+📌 4. Releases and Versioning (SemVer)
+We use Semantic Versioning:
 
-✔ **Proceso de revisión:**
-- Todo PR debe ser revisado por al menos 2 miembros antes de aprobarse.
-- Se utilizan checks automáticos (CI/CD) para validar código y pruebas.
-- Se permiten discusiones en los PRs antes de fusionarlos.
-
-✔ **Estilo de commits (Convencional Commits):**
-```bash
-tipo(scope): descripción corta en presente
-```
-Ejemplos:
-✅ `feat(consensus): implement Proof-of-Generation validation`
-✅ `fix(api): correct energy audit timestamp format`
-✅ `docs(readme): update contributing guidelines`
-
-**Tipos de commits válidos:**
-- `feat`: Nueva funcionalidad.
-- `fix`: Corrección de errores.
-- `docs`: Cambios en documentación.
-- `style`: Ajustes en formato/código sin afectar funcionalidad.
-- `refactor`: Reestructuración de código sin cambios funcionales.
-- `test`: Agregar o modificar pruebas.
-
-### 📌 4. Lanzamientos y Versionado (SemVer)
-
-Usamos Semantic Versioning:
-```bash
+bash
+Copiar
+Editar
 MAJOR.MINOR.PATCH
-```
-Ejemplo:  
-- `1.0.0` → Primera versión estable.
-- `1.1.0` → Nueva funcionalidad.
-- `1.1.1` → Corrección de bug.
+Example:
 
-### 📌 5. Seguridad y Gobernanza del Repositorio
+1.0.0 → First stable release.
+1.1.0 → New feature added.
+1.1.1 → Bug fix.
+📌 5. Repository Security and Governance
+🔒 Access and Roles
 
-🔒 **Accesos y Roles**
-- Solo miembros de la fundación pueden fusionar PRs en `main`.
-- Colaboradores externos pueden hacer PRs a `develop`.
-- Solo administradores tienen acceso a secrets y credenciales.
+Only foundation members can merge PRs into main.
+External collaborators can submit PRs to develop.
+Only admins have access to secrets and credentials.
+⚠ Security Rules
 
-⚠ **Reglas de seguridad**
-- Escaneo automático de vulnerabilidades en cada PR.
-- Verificación de dependencias para evitar ataques a la cadena de suministro.
-- Código de conducta para interacciones respetuosas.
+Automatic vulnerability scanning on every PR.
+Dependency checks to prevent supply chain attacks.
+Code of conduct to ensure respectful interactions.
+📜 Protocol Governance and Proof of Generate Distribution Policy
+📌 1. Block Reward Distribution
+For each block generated in the C-Project network, rewards are distributed as follows:
 
-## 📜 Política de Distribución y Gobernanza del Protocolo Proof of Generate
+✅ 60% – Energy Generating Nodes
 
-### 📌 1. Distribución de Recompensas por Bloque
+Proportionally distributed based on the energy contributed by each node.
+✅ 40% – Network Maintenance and Development Fund
 
-Cada bloque generado en la red C-Project distribuye las recompensas así:
+Used to pay salaries, incentivize the community, and improve the protocol.
+Automatically burned if not used within 48 hours.
+🔥 Token Burn Mechanism
 
-✅ **60% – Nodos generadores de energía**
-- Se distribuye proporcionalmente según la energía aportada por cada nodo.
+Unused funds are removed to prevent inflation.
+Maintains the balance between token issuance and energy generation.
+📌 2. Maintenance Fund Governance
+🛠 Resource Allocation
 
-✅ **40% – Fondo de mantenimiento y desarrollo de la red**
-- Se usa para pagar sueldos, incentivar a la comunidad y mejorar el protocolo.
-- **Si no se usa en 48 horas, se quema automáticamente.**
+Rewards for technical contributions (bugfix/, performance/, feature/, docs/).
+Salaries for key developers and infrastructure maintenance.
+Adoption incentives (hackathons, grants, bounties).
+🎙 Decision-Making Process
 
-🔥 **Mecanismo de Quema de Tokens**
-- Los fondos no utilizados se eliminan para evitar inflación.
-- Esto mantiene el equilibrio entre emisión de tokens y generación de energía.
+Improvement and funding proposals are voted on via GitHub/Governance DAO.
+Full transparency on available funds and expenses.
+📌 3. Integration with Repository Management Strategy
+Significant contributions may receive rewards.
+Funding requests are made via funding-request/{name} on GitHub.
+If tokens are not allocated within 48 hours, they are burned.
+🎯 Impact of This Strategy
+✅ Encourages nodes to contribute energy generation.
+✅ Promotes continuous protocol improvements.
+✅ Maintains token value without uncontrolled inflation.
+✅ Fosters an active community aligned with project goals.
 
-### 📌 2. Gobernanza del Fondo de Mantenimiento
+🚀 Thank you for contributing to C-Project! For more information, please check the documentation or join our discussions on Discord/GitHub.
 
-🛠 **Asignación de Recursos**
-- Recompensas por contribuciones técnicas (`bugfix/`, `performance/`, `feature/`, `docs/`).
-- Sueldos para desarrolladores clave y mantenimiento de la infraestructura.
-- Incentivos para adopción (`hackathons`, `grants`, `bounties`).
-
-🎙 **Proceso de Decisión**
-- Propuestas de mejoras y financiamiento por votación comunitaria en GitHub/Governance DAO.
-- Transparencia total sobre fondos disponibles y gastos.
-
-### 📌 3. Integración con la Estrategia de Administración del Repositorio
-
-- Cada contribución significativa puede recibir recompensas.
-- Las solicitudes de financiamiento se hacen mediante `funding-request/{nombre}` en GitHub.
-- Si los tokens no se asignan en 48 horas, se queman.
-
-🎯 **Impacto de Esta Estrategia**
-✅ Incentiva a los nodos a contribuir con generación de energía.
-✅ Promueve mejoras continuas en el protocolo.
-✅ Mantiene el valor del token sin inflación descontrolada.
-✅ Fomenta una comunidad activa y alineada con los intereses del proyecto.
-
----
-
-🚀 ¡Gracias por contribuir a C-Project! Para más información, consulta la documentación o únete a nuestras discusiones en Discord/GitHub.
