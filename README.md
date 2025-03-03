@@ -58,7 +58,7 @@ Usamos Semantic Versioning:
 ```bash
 MAJOR.MINOR.PATCH
 ```
-Ejemplo:
+Ejemplo:  
 - `1.0.0` → Primera versión estable.
 - `1.1.0` → Nueva funcionalidad.
 - `1.1.1` → Corrección de bug.
