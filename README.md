@@ -109,10 +109,10 @@ Each block generated on the C-Project network distributes rewards as follows:
 - Funding requests are made via `funding-request/{name}` on GitHub.
 - If tokens are not allocated within 48 hours, they are burned.
 
-🎯 **Impact of This Strategy**
-✅ Encourages nodes to contribute energy generation.
-✅ Promotes continuous improvements in the protocol.
-✅ Maintains token value without uncontrolled inflation.
+🎯 **Impact of This Strategy**  
+✅ Encourages nodes to contribute energy generation.  
+✅ Promotes continuous improvements in the protocol.  
+✅ Maintains token value without uncontrolled inflation.  
 ✅ Fosters an active community aligned with the project's goals.
 
 ---
