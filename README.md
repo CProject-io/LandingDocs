@@ -1,111 +1,121 @@
-LandingDocs
-C-Project: Official Repository
+# LandingDocs
+# C-Project: Official Repository
+
 Welcome to the official repository of C-Project. This document outlines the project's management, contribution, and governance policies.
 
-📜 Git Repository Management Policy
-📌 1. Repository Structure
-The repository is organized into the following main branches:
+## 📜 Git Repository Management Policy
 
-main (or master): Stable production code. Updated only through reviewed and approved pull requests (PRs).
-develop: Development branch where changes are integrated before merging into main.
-feature/{name}: Branches for new features (Example: feature/implement-pog).
-bugfix/{name}: Branches for fixing identified bugs (Example: bugfix/fix-energy-validation).
-hotfix/{name}: Branches for critical fixes in the main.
-📌 2. Branching Strategy (Git Flow)
-1️⃣ New features or fixes → Create a feature/{name} or bugfix/{name} branch from develop.
-2️⃣ Development and testing → Work on the branch and test the code.
-3️⃣ Pull Request (PR) to develop → Review by other members before merging.
-4️⃣ Integration into develop → Merge the change once approved.
-5️⃣ Production releases → When develop is ready, create a release/{version} and merge it into main.
-6️⃣ Urgent fix in main → Create a hotfix/{name} from main, fix, and merge into both main and develop.
+### 📌 1. Repository Structure
+The repository is divided into the following main branches:
 
-📌 3. Contributions and Reviews
-✔ Contribution Rules:
+- **main (or master)**: Stable production code. Only updated through reviewed and approved pull requests (PRs).
+- **develop**: Development branch where changes are integrated before merging into main.
+- **feature/{name}**: Branches for new features (Example: `feature/implement-pog`).
+- **bugfix/{name}**: Branches to fix identified bugs (Example: `bugfix/fix-energy-validation`).
+- **hotfix/{name}**: Branches for critical fixes in main.
 
-Every contribution should be in a specific branch (feature/, bugfix/).
-A clear description is required in PRs.
-Prefer small, well-documented commits.
-✔ Review Process:
+### 📌 2. Branching Strategy (Git Flow)
 
-All PRs must be reviewed by at least 2 members before approval.
-Automated checks (CI/CD) are used for code validation and testing.
-Discussions on PRs are encouraged before merging.
-✔ Commit Style (Conventional Commits):
+1️⃣ **New features or fixes** → Create a `feature/{name}` or `bugfix/{name}` branch from `develop`.
+2️⃣ **Development and testing** → Work on the corresponding branch and test the code.
+3️⃣ **Pull Request (PR) to develop** → Review by other members before merging.
+4️⃣ **Integration into develop** → Merge the change once approved.
+5️⃣ **Production releases** → When `develop` is ready, create a version (`release/{version}`) and merge into `main`.
+6️⃣ **Critical fix in main** → Create a `hotfix/{name}` from `main`, fix it, and merge into `main` and `develop`.
 
-bash
-Copiar
-Editar
+### 📌 3. Contributions and Reviews
+
+✔ **Contribution Rules:**
+- Each contribution must go into a specific branch (`feature/`, `bugfix/`).
+- Clear descriptions are required in PRs.
+- It is recommended to use small and well-documented commits.
+
+✔ **Review Process:**
+- Every PR must be reviewed by at least 2 members before approval.
+- Automatic checks (CI/CD) are used to validate code and tests.
+- Discussions in PRs are encouraged before merging.
+
+✔ **Commit Style (Conventional Commits):**
+```bash
 type(scope): short description in present tense
+```
 Examples:
-✅ feat(consensus): implement Proof-of-Generation validation
-✅ fix(api): correct energy audit timestamp format
-✅ docs(readme): update contributing guidelines
+✅ `feat(consensus): implement Proof-of-Generation validation`
+✅ `fix(api): correct energy audit timestamp format`
+✅ `docs(readme): update contributing guidelines`
 
-Valid Commit Types:
+**Valid commit types:**
+- `feat`: New feature.
+- `fix`: Bug fix.
+- `docs`: Documentation changes.
+- `style`: Formatting/code style changes with no functional impact.
+- `refactor`: Code restructuring without functional changes.
+- `test`: Adding or modifying tests.
 
-feat: New feature.
-fix: Bug fix.
-docs: Documentation changes.
-style: Code formatting without affecting functionality.
-refactor: Code restructuring without functional changes.
-test: Add or modify tests.
-📌 4. Releases and Versioning (SemVer)
+### 📌 4. Releases and Versioning (SemVer)
+
 We use Semantic Versioning:
-
-bash
-Copiar
-Editar
+```bash
 MAJOR.MINOR.PATCH
-Example:
+```
+Example:  
+- `1.0.0` → First stable release.
+- `1.1.0` → New functionality.
+- `1.1.1` → Bug fix.
 
-1.0.0 → First stable release.
-1.1.0 → New feature added.
-1.1.1 → Bug fix.
-📌 5. Repository Security and Governance
-🔒 Access and Roles
+### 📌 5. Repository Security and Governance
 
-Only foundation members can merge PRs into main.
-External collaborators can submit PRs to develop.
-Only admins have access to secrets and credentials.
-⚠ Security Rules
+🔒 **Access and Roles**
+- Only foundation members can merge PRs into `main`.
+- External contributors can create PRs to `develop`.
+- Only administrators have access to secrets and credentials.
 
-Automatic vulnerability scanning on every PR.
-Dependency checks to prevent supply chain attacks.
-Code of conduct to ensure respectful interactions.
-📜 Protocol Governance and Proof of Generate Distribution Policy
-📌 1. Block Reward Distribution
-For each block generated in the C-Project network, rewards are distributed as follows:
+⚠ **Security Rules**
+- Automatic vulnerability scanning on every PR.
+- Dependency checks to avoid supply chain attacks.
+- Code of conduct for respectful interactions.
 
-✅ 60% – Energy Generating Nodes
+## 📜 Proof of Generate Protocol Distribution and Governance Policy
 
-Proportionally distributed based on the energy contributed by each node.
-✅ 40% – Network Maintenance and Development Fund
+### 📌 1. Block Reward Distribution
 
-Used to pay salaries, incentivize the community, and improve the protocol.
-Automatically burned if not used within 48 hours.
-🔥 Token Burn Mechanism
+Each block generated on the C-Project network distributes rewards as follows:
 
-Unused funds are removed to prevent inflation.
-Maintains the balance between token issuance and energy generation.
-📌 2. Maintenance Fund Governance
-🛠 Resource Allocation
+✅ **60% – Energy-generating nodes**
+- Distributed proportionally according to the energy contributed by each node.
 
-Rewards for technical contributions (bugfix/, performance/, feature/, docs/).
-Salaries for key developers and infrastructure maintenance.
-Adoption incentives (hackathons, grants, bounties).
-🎙 Decision-Making Process
+✅ **40% – Network maintenance and development fund**
+- Used for salaries, community incentives, and protocol improvements.
+- **Burned automatically if not used within 48 hours.**
 
-Improvement and funding proposals are voted on via GitHub/Governance DAO.
-Full transparency on available funds and expenses.
-📌 3. Integration with Repository Management Strategy
-Significant contributions may receive rewards.
-Funding requests are made via funding-request/{name} on GitHub.
-If tokens are not allocated within 48 hours, they are burned.
-🎯 Impact of This Strategy
+🔥 **Token Burning Mechanism**
+- Unused funds are eliminated to avoid inflation.
+- Maintains balance between token issuance and energy generation.
+
+### 📌 2. Maintenance Fund Governance
+
+🛠 **Resource Allocation**
+- Rewards for technical contributions (`bugfix/`, `performance/`, `feature/`, `docs/`).
+- Salaries for key developers and infrastructure maintenance.
+- Adoption incentives (`hackathons`, `grants`, `bounties`).
+
+🎙 **Decision-Making Process**
+- Improvement and funding proposals through community voting on GitHub/Governance DAO.
+- Full transparency on available funds and expenses.
+
+### 📌 3. Integration with Repository Management Strategy
+
+- Significant contributions can receive rewards.
+- Funding requests are made via `funding-request/{name}` on GitHub.
+- If tokens are not allocated within 48 hours, they are burned.
+
+🎯 **Impact of This Strategy**
 ✅ Encourages nodes to contribute energy generation.
-✅ Promotes continuous protocol improvements.
+✅ Promotes continuous improvements in the protocol.
 ✅ Maintains token value without uncontrolled inflation.
-✅ Fosters an active community aligned with project goals.
+✅ Fosters an active community aligned with the project's goals.
 
-🚀 Thank you for contributing to C-Project! For more information, please check the documentation or join our discussions on Discord/GitHub.
+---
+
+🚀 Thank you for contributing to C-Project! For more information, please refer to the documentation or join our discussions on Discord/GitHub.
 
