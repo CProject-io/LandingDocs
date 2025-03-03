@@ -16,11 +16,11 @@ El repositorio se divide en las siguientes ramas principales:
 
 ### 📌 2. Estrategia de Branching (Git Flow)
 
-1️⃣ **Nuevas características o correcciones** → Crear una rama `feature/{nombre}` o `bugfix/{nombre}` desde `develop`.
-2️⃣ **Desarrollo y pruebas** → Se trabaja en la rama correspondiente y se testea el código.
-3️⃣ **Pull Request (PR) a develop** → Revisión por otros miembros antes de fusionar.
-4️⃣ **Integración en develop** → Se fusiona el cambio una vez aprobado.
-5️⃣ **Lanzamientos a producción** → Cuando `develop` está listo, se genera una versión (`release/{versión}`) y se fusiona en `main`.
+1️⃣ **Nuevas características o correcciones** → Crear una rama `feature/{nombre}` o `bugfix/{nombre}` desde `develop`.  
+2️⃣ **Desarrollo y pruebas** → Se trabaja en la rama correspondiente y se testea el código.  
+3️⃣ **Pull Request (PR) a develop** → Revisión por otros miembros antes de fusionar.  
+4️⃣ **Integración en develop** → Se fusiona el cambio una vez aprobado.  
+5️⃣ **Lanzamientos a producción** → Cuando `develop` está listo, se genera una versión (`release/{versión}`) y se fusiona en `main`.  
 6️⃣ **Corrección urgente en main** → Se crea un `hotfix/{nombre}` desde `main`, se corrige y se fusiona en `main` y `develop`.
 
 ### 📌 3. Contribuciones y Revisiones
