@@ -1,6 +1,6 @@
 ### Deployment Script (📁 scripts/deploy.sh)
 
-```bash
+```
 #!/bin/bash
 # Deployment script for C-Project
 
