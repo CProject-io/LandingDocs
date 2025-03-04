@@ -2,5 +2,5 @@
 
 - Be respectful and professional in all interactions.
 - Avoid harassment, discrimination, and toxic behavior.
-- Report violations to maintainers via [hello@cproject.io .
+- Report violations to maintainers via hello@cproject.io .
 
