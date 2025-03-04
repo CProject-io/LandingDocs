@@ -1,6 +1,6 @@
 # Security Policy (📜 SECURITY.md)
 
 - Conduct automated vulnerability scans on all PRs.
-- Report vulnerabilities via [security@c-project.org].
+- Report vulnerabilities via hello@cproject.io.
 - Avoid sharing sensitive information publicly.
 
