@@ -1,6 +1,5 @@
 # LandingDocs
 
-# LandingDocs
 # C-Project: Official Repository
 
 Welcome to the official repository of C-Project. This repository is the cornerstone of C-Project's documentation and governance, housing all the necessary information, guidelines, and resources for contributors, developers, and community members.
