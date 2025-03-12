@@ -1,6 +1,6 @@
 # C-Project Initial Roadmap
 
-## Phase 1: Foundations and Planning (Months 1-3)
+## Phase 1: Foundations and Planning
 
 - **Definition of Vision and Mission:**
   - Clearly establish the objectives of C-Project, focusing on creating a self-sustaining blockchain infrastructure that serves as a platform for IT solutions.
@@ -15,7 +15,7 @@
 - **Development of the Project Plan:**
   - Develop a detailed plan that includes timelines, required resources, and risk mitigation strategies.
 
-## Phase 2: Development of Basic Infrastructure (Months 4-6)
+## Phase 2: Development of Basic Infrastructure
 
 - **System Architecture Design:**
   - Define the structure of the blockchain network, including nodes, consensus mechanisms, and communication protocols.
@@ -29,7 +29,7 @@
 - **Implementation of Security Mechanisms:**
   - Ensure the integrity and confidentiality of the network by implementing robust security protocols.
 
-## Phase 3: Pilot Testing and Validation (Months 7-9)
+## Phase 3: Pilot Testing and Validation
 
 - **Deployment of Test Networks (Testnets):**
   - Launch controlled environments to evaluate the performance and security of the network.
@@ -40,7 +40,7 @@
 - **Feedback and Continuous Improvement:**
   - Gather feedback from early users and make adjustments as necessary.
 
-## Phase 4: Application Development and Community Expansion (Months 10-12)
+## Phase 4: Application Development and Community Expansion
 
 - **Promotion of dApp Development:**
   - Encourage the creation of decentralized applications that add value to the network and its users.
@@ -51,7 +51,7 @@
 - **Marketing Strategies and Partnerships:**
   - Promote the project on various platforms and establish strategic collaborations to expand the network's reach.
 
-## Phase 5: Official Launch and Creation of Internal Economy (Months 13-15)
+## Phase 5: Official Launch and Creation of Internal Economy
 
 - **Launch of the Main Network (Mainnet):**
   - Put the official version of the network into operation for all users.
