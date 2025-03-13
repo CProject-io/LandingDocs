@@ -13,9 +13,9 @@ This approach ensures that the token maintains a minimum value anchored in the a
 
 The proposed formula to determine the token's value is as follows:
 
-\[
+$$
 V_{\text{token}} = \alpha \left( \frac{C_{\text{avg}}}{E_{\text{total}}} \right) + (1-\alpha) \cdot V_{\text{utility}}
-\]
+$$
 
 Where:
 
@@ -31,7 +31,7 @@ Where:
 
 - **Objective:** Establish a minimum token value based on the real cost of generating renewable energy.
 - **Approach:**  
-  The fraction \(\frac{C_{\text{avg}}}{E_{\text{total}}}\) reflects the average cost per unit of energy required to sustain the network. This component ensures that the token's value does not fall below the actual cost associated with renewable energy production.
+  The fraction \( \frac{C_{\text{avg}}}{E_{\text{total}}} \) reflects the average cost per unit of energy required to sustain the network. This component ensures that the token's value does not fall below the actual cost associated with renewable energy production.
 
 ### 3.2. Utility Component
 
@@ -48,7 +48,7 @@ Where:
 - **Approach:**  
   The parameter \(\alpha\) allows us to adjust the contribution of each component:
   - A value of \(\alpha\) close to 1 gives more weight to the production cost component, suitable for early stages when establishing operational bases.
-  - A lower value of \(\alpha\) (closer to 0) highlights utility and network demand, ideal as the ecosystem matures.
+  - A lower value of \(\alpha\) (closer to 0) highlights the utility and network demand, ideal as the ecosystem matures.
 
 ## 4. Implementation and Practical Considerations
 
