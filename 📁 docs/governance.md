@@ -26,6 +26,9 @@ C-Project is an innovative blockchain designed to incentivize renewable energy g
   - **Economic Rewards:** User-contributed nodes are rewarded with tokens proportional to the renewable energy they generate and the diversity of their contributions. These tokens serve as both an incentive and a means to cover operational costs.
   - **Voting Rights:** In addition to token rewards, these nodes receive voting rights proportional to their contributions, enabling them to participate in key decision-making processes regarding protocol changes, resource allocation, and governance.
   - **Balance Mechanism:** The system ensures that the accumulation of voting rights corresponds directly to the verifiable energy contributions, preventing disproportionate influence by a small number of participants.
+- **Economic Rewards:** User-contributed nodes are rewarded with tokens proportional to the renewable energy they **verifiably generate** (as validated by the PoG mechanism detailed in the [Architecture](📁 docs/architecture.md) document). [...]
+- **Voting Rights:** [...] receive voting rights proportional to their **validated** contributions, [...]
+
 
 ## 4. Governance Structure
 
