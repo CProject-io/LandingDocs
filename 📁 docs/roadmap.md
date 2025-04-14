@@ -40,12 +40,14 @@
 - **Feedback and Continuous Improvement:**
   - Gather feedback from early users and make adjustments as necessary.
 
-** Phase 4: PoG Evolution & Native Weather Data Services**
-    * **Description:** Development and optional integration of weather station modules into C-Project nodes.
-    * **Objectives:**
-        * Utilize hyper-local, real-time climate data (measured by the node itself) to dramatically increase the accuracy and security of PoG validation.
-        * Reduce reliance on external oracles for environmental data.
-        * Position the C-Project network as a decentralized provider of granular climate data, generating new utility and value for the ecosystem.
+## Phase 4: PoG Evolution & Native Weather Data Services**
+- **Description:** Development and optional integration of weather station modules into C-Project nodes.
+- **Objectives:**
+  - Utilize hyper-local, real-time climate data (measured by the node itself) to dramatically increase the accuracy and security of 
+    PoG validation.
+    - Reduce reliance on external oracles for environmental data.
+    - Position the C-Project network as a decentralized provider of granular climate data, generating new utility and value for the 
+     ecosystem.
 
 ## Phase 5: Application Development and Community Expansion
 
