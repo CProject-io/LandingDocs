@@ -6,6 +6,29 @@ C-Project aims to build a blockchain network that incentivizes renewable energy 
 ## 2. Software Architecture
 ### 2.1. Blockchain Framework
 The C-Project blockchain will be built as a fork of Substrate, a modular and extensible framework developed by Parity Technologies. Substrate allows for high flexibility in customizing the consensus layer, governance mechanisms, and runtime modules, aligning well with C-Project's unique PoG requirements.
+#### 2.1.1. Mecanismo de Validación PoG (Proof-of-Generation)
+
+La integridad del consenso Proof-of-Generation es fundamental para C-Project. Para asegurar que la energía reportada por los nodos proviene de fuentes renovables verificadas y corresponde a la generación real, implementamos un robusto mecanismo de validación multi-capa:
+
+1.  **Capa 1: Medición Directa Segura (Hardware-Software)**
+    * Un módulo sensor, físicamente acoplado al equipo de generación, mide la energía neta producida (`E_medida`) en intervalos definidos.
+    * Esta medición es firmada digitalmente por el módulo sensor y transmitida de forma segura (ej., mediante Comunicación por Línea Eléctrica - PLC - cifrada y autenticada, u otro canal dedicado seguro) a un dispositivo auditor asociado al nodo.
+    * El dispositivo auditor verifica la firma criptográfica, la autenticidad del origen y la frescura temporal de la medición recibida.
+
+2.  **Capa 2: Estimación Contextual Basada en Modelos y Oráculos (Software)**
+    * El dispositivo auditor utiliza las especificaciones técnicas del generador (previamente registradas en la blockchain, incluyendo modelo, curva de eficiencia certificada, y historial de degradación) y su ubicación GPS precisa y verificada.
+    * Consulta oráculos externos confiables (o, en futuras fases, datos de la red interna de estaciones climáticas C-Project) para obtener datos ambientales relevantes (radiación solar incidente, velocidad del viento local, temperatura, etc.) correspondientes a la ubicación y el momento de la medición.
+    * Calcula la energía estimada (`E_estimada`) que el generador *debería* haber producido teóricamente bajo esas condiciones específicas y según su perfil técnico.
+
+3.  **Capa 3: Reconciliación y Validación Final (Software)**
+    * Se compara la energía medida directamente (`E_medida`) con la energía estimada (`E_estimada`).
+    * Si la diferencia (`|E_medida - E_estimada| / E_estimada`) se encuentra dentro de un umbral de tolerancia dinámico (`Tolerancia_PoG`), ajustable por gobernanza y potencialmente dependiente del tipo de generador y las condiciones, la medición se considera **Válida**. El valor final registrado para recompensas (`E_reportada`) se basa en `E_medida`.
+    * Si la diferencia excede el umbral, la medición se marca como **Sospechosa**. Se registra un valor nulo o mínimo (`E_reportada = 0` o cercano a cero) y potencialmente se genera una alerta para revisión o análisis posterior. Esto previene recompensas por datos anómalos sin descartarlos completamente para auditoría.
+
+4.  **Transparencia y Auditabilidad On-Chain:**
+    * El nodo consolida y reporta a la blockchain la información clave del proceso (timestamp, `E_medida`, `E_estimada`, identificadores de fuentes de datos ambientales, `E_reportada`, estado de validación). Esto asegura una total transparencia y permite la auditoría independiente del proceso de validación PoG.
+
+Este enfoque multi-capa garantiza una alta fidelidad y confiabilidad en la energía reportada, fundamentando las recompensas, la seguridad y la propuesta de valor ecológica de la red C-Project.
 
 - **Consensus Mechanism**: Proof-of-Generation (PoG)
   - Nodes generate blocks based on the amount of renewable energy produced and contributed to the network.
