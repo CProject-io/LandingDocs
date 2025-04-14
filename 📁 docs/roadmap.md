@@ -40,7 +40,14 @@
 - **Feedback and Continuous Improvement:**
   - Gather feedback from early users and make adjustments as necessary.
 
-## Phase 4: Application Development and Community Expansion
+* **Fase 4: Evolución PoG y Servicios de Datos Climáticos Nativos**
+    * **Descripción:** Desarrollo e integración opcional de módulos de estación climática en los nodos C-Project.
+    * **Objetivos:**
+        * Utilizar datos climáticos hiperlocales en tiempo real (medidos por el propio nodo) para incrementar drásticamente la precisión y seguridad de la validación PoG.
+        * Reducir la dependencia de oráculos externos para datos ambientales.
+        * Posicionar la red C-Project como un proveedor descentralizado de datos climáticos granulares, generando nueva utilidad y valor para el ecosistema.
+
+## Phase 5: Application Development and Community Expansion
 
 - **Promotion of dApp Development:**
   - Encourage the creation of decentralized applications that add value to the network and its users.
@@ -51,7 +58,7 @@
 - **Marketing Strategies and Partnerships:**
   - Promote the project on various platforms and establish strategic collaborations to expand the network's reach.
 
-## Phase 5: Official Launch and Creation of Internal Economy
+## Phase 6: Official Launch and Creation of Internal Economy
 
 - **Launch of the Main Network (Mainnet):**
   - Put the official version of the network into operation for all users.
