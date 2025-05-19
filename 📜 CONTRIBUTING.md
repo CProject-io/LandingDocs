@@ -43,9 +43,9 @@ This document outlines the various ways developers, engineers, scientists, econo
 Currently, our project is primarily funded through cryptocurrency donations. We greatly appreciate your support, which is fundamental to our continued development and growth.
 
 * **Cryptocurrency Donations:** We primarily accept contributions in the following cryptocurrencies. Our official wallet addresses are:
-    * **Ethereum (ETH):** `[0xbE5F1249aC0cD409b3976e1D40bc141E9119427D]`
-    * **Bitcoin (BTC):** `[bc1qk26573ywj8wgmzv03g2n7kcmynkkz52kgrgt5k]`
-    * **Solana (SOL):** `[3StJ9RkvS3wJAvWexsZRUSBRamUM1JZA4bWyS6Pje3q4]`
+    * **Ethereum (ETH):** `0xbE5F1249aC0cD409b3976e1D40bc141E9119427D`
+    * **Bitcoin (BTC):** `bc1qk26573ywj8wgmzv03g2n7kcmynkkz52kgrgt5k`
+    * **Solana (SOL):** `3StJ9RkvS3wJAvWexsZRUSBRamUM1JZA4bWyS6Pje3q4`
 
     *Note: Please always verify that you are using the correct addresses directly from our official website before making any transaction.*
 
