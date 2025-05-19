@@ -40,17 +40,27 @@ This document outlines the various ways developers, engineers, scientists, econo
 
 ### 3.1. How to Donate
 
-- **Donation Platform:** We have a secure platform on our official website where donations can be made using various payment methods.
-- **Cryptocurrency Donations:** We also accept contributions in cryptocurrencies. Official wallet addresses are available on the donation page.
+Currently, our project is primarily funded through cryptocurrency donations. We greatly appreciate your support, which is fundamental to our continued development and growth.
 
-### 3.2. Use of Funds
+* **Cryptocurrency Donations:** We primarily accept contributions in the following cryptocurrencies. Our official wallet addresses are:
+    * **Ethereum (ETH):** `[0xbE5F1249aC0cD409b3976e1D40bc141E9119427D]`
+    * **Bitcoin (BTC):** `[bc1qk26573ywj8wgmzv03g2n7kcmynkkz52kgrgt5k]`
+    * **Solana (SOL):** `[3StJ9RkvS3wJAvWexsZRUSBRamUM1JZA4bWyS6Pje3q4]`
 
-Until C-Project can sustain itself with its own internal economy, donated funds will be strategically used to:
+    *Note: Please always verify that you are using the correct addresses directly from our official website before making any transaction.*
 
-- **Compensate Collaborators:** Remunerate developers, engineers, researchers, economists, and other participants for their work.
-- **Research and Development:** Invest in advanced renewable energy generation technologies and energy efficiency research.
-- **Network Maintenance:** Cover operational costs, hardware maintenance, infrastructure improvements, and network expansion.
-- **Community Initiatives:** Support educational programs, outreach activities, and collaborative projects that drive innovation and ecosystem adoption.
+### 3.2. Use of Funds and Transparency
+
+We are committed to full transparency in the management of received funds. 100% of the donated money will be used entirely for the development and advancement of the C-Project. This includes, but is not limited to:
+
+* **Compensating Collaborators:** Remunerating developers, engineers, researchers, economists, and other participants for their valuable work and dedication.
+* **Research and Development:** Investing in the exploration and implementation of advanced technologies relevant to the project, as well as ongoing research to improve its efficiency and scope.
+* **Infrastructure Maintenance:** Covering essential operational costs, hardware maintenance, technological infrastructure improvements, and network expansion necessary for the project's operation.
+* **Community Initiatives:** Supporting educational programs, outreach activities, and collaborative projects that drive innovation and the adoption of the C-Project ecosystem.
+
+**Detailed Tracking of Funds:**
+
+To ensure maximum transparency, we will provide detailed tracking of the destination of the funds. The community will be periodically informed about how donations are being used, detailing specific allocations and the progress achieved thanks to your contribution. We will publish these reports on our official website and designated communication channels.
 
 ## 4. Transparency and Accountability
 
