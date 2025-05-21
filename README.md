@@ -60,7 +60,7 @@ Landingdocs/
 We invite developers, researchers, and enthusiasts to join us in building a more sustainable and decentralized future. Whether through code, documentation, or community engagement, your contribution is valuable to C-Project.
 
 🌐 **Visit our website:** [Comming soon]  
-💬 **Join the discussion:** [Comming soon]
+💬 **Join the discussion:** [Comming soon] 
 📧 **Contact us:** hello@cproject.io
 
 Thank you for being part of this journey!
