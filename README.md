@@ -29,43 +29,43 @@ The LandingDocs repository serves multiple key purposes:
 
 ## 📁 Docs (`/docs`)
 
-- [System Architecture](📂 docs/architecture.html)
-- [Installation Guide](📂docs/installation.html)
-- [Usage Guide](docs/usage.html)
-- [Governance](docs/governance.html)
-- [Roadmap](docs/roadmap.html)
+- [System Architecture](📁 docs/architecture.html)
+- [Installation Guide](📁 docs/installation.html)
+- [Usage Guide](📁 docs/usage.html)
+- [Governance](📁 docs/governance.html)
+- [Roadmap](📁 docs/roadmap.html)
 
 ### 📄 API Docs (`/docs/api`)
 
-- [Overview](docs/api/overview.html)
-- [Endpoints](docs/api/endpoints.html)
-- [Authentication](docs/api/authentication.html)
+- [Overview](📁 docs/api/overview.html)
+- [Endpoints](📁 docs/api/endpoints.html)
+- [Authentication](📁 docs/api/authentication.html)
 
 ## 📁 Wikis (`/wikis`)
 
-- [Project History](wikis/history.html)
-- [Philosophy](wikis/philosophy.html)
-- [Best Practices](wikis/best-practices.html)
+- [Project History](📁 wikis/history.html)
+- [Philosophy](📁 wikis/philosophy.html)
+- [Best Practices](📁 wikis/best-practices.html)
 
 ## 📁 Policies (`/policies`)
 
-- [Repository Management](policies/repository-management.html)
-- [Code Review Process](policies/code-review.html)
-- [Security Policy](policies/security-policy.html)
+- [Repository Management](📁 policies/repository-management.html)
+- [Code Review Process](📁 policies/code-review.html)
+- [Security Policy](📁 policies/security-policy.html)
 
 ## 📁 Assets (`/assets`)
 
-- [Logos](assets/logos/index.html)
-- [Diagrams](assets/diagrams/index.html)
+- [Logos](📁 assets/logos/index.html)
+- [Diagrams](📁 assets/diagrams/index.html)
 
 ## 📁 Templates (`/templates`)
 
-- [Issue Template](templates/issue_template.html)
-- [Pull Request Template](templates/pull_request_template.html)
+- [Issue Template](📁 templates/issue_template.html)
+- [Pull Request Template](📁 templates/pull_request_template.html)
 
 ## 📁 Scripts (`/scripts`)
 
-- [Scripts](scripts/index.html)
+- [Scripts](📁 scripts/index.html)
 
 
 ## 🤝 Get Involved!
