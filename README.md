@@ -22,8 +22,8 @@ The LandingDocs repository serves multiple key purposes:
 ## 📂 Repository Structure
 ```
 Landingdocs/
-├── 📜 README.md                                     # General introduction and documentation
-├── 📜 [CONTRIBUTING](📜%20CONTRIBUTING.html)          # Contribution guidelines
+├── 📜 README.md                         # General introduction and documentation
+├── 📜 [CONTRIBUTING](CONTRIBUTING.html)          # Contribution guidelines
 ├── 📜 CODE_OF_CONDUCT.md       # Contributor code of conduct
 ├── 📜 SECURITY.md              # Security guidelines and vulnerability reporting
 ├── 📜 TROUBLESHOOTING.md       # Common issues and FAQ
