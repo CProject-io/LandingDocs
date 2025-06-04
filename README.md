@@ -60,8 +60,8 @@ The LandingDocs repository serves multiple key purposes:
 
 ## 📁 Templates (`/templates`)
 
-- [Issue Template](📁 templates/issue_template.html)
-- [Pull Request Template](📁 templates/pull_request_template.html)
+- [Issue Template](templates/issue_template.html)
+- [Pull Request Template](templates/pull_request_template.html)
 
 ## 📁 Scripts (`/scripts`)
 
