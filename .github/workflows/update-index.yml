@@ -22,7 +22,21 @@ jobs:
             name=$(basename "$file")
             echo "- [$name]($name)" >> scripts/index.md
           done
-
+          
+      - name: Generate index for /assets/logos
+        run: |
+          echo "# 📜 Scripts" > /assets/logos/index.md
+          echo "" >> /assets/logos/index.md
+          for file in /assets/logos/*.jpg; do
+            [ -f "$file" ] || continue
+            name=$(basename "$file")
+            echo "- [$name]($name)" >> /assets/logos/index.md
+          for file in /assets/logos/*.png; do
+            [ -f "$file" ] || continue
+            name=$(basename "$file")
+            echo "- [$name]($name)" >> /assets/logos/index.md
+          done          
+          
       - name: Generate index for /assets/diagrams
         run: |
           echo "# 🖼 Diagrams" > assets/diagrams/index.md
@@ -35,8 +49,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add scripts/index.md assets/diagrams/index.md
-          git commit -m "Update auto-generated index.md"
+          git config user.name "Agustion"
+          git config user.email "agustin@arbol.uy"
+          git add scripts/index.md assets/diagrams/index.md assets/logos/index.md
+          git commit -m "Update auto-generated indexes"
           git push
