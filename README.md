@@ -29,8 +29,8 @@ The LandingDocs repository serves multiple key purposes:
 
 ## 📁 Docs (`/docs`)
 
-- [System Architecture](docs/architecture.html)
-- [Installation Guide](docs/installation.html)
+- [System Architecture](📂 docs/architecture.html)
+- [Installation Guide](📂docs/installation.html)
 - [Usage Guide](docs/usage.html)
 - [Governance](docs/governance.html)
 - [Roadmap](docs/roadmap.html)
