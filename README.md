@@ -23,7 +23,7 @@ The LandingDocs repository serves multiple key purposes:
 ```
 Landingdocs/
 ├── 📜 README.md                # General introduction and documentation
-├── 📜 [CONTRIBUTING.md](CONTRIBUTING.html)          # Contribution guidelines
+├── 📜 [CONTRIBUTING](📜 CONTRIBUTING.html)          # Contribution guidelines
 ├── 📜 CODE_OF_CONDUCT.md       # Contributor code of conduct
 ├── 📜 SECURITY.md              # Security guidelines and vulnerability reporting
 ├── 📜 TROUBLESHOOTING.md       # Common issues and FAQ
