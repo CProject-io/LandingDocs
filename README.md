@@ -7,7 +7,7 @@ Welcome to the official repository of C-Project. This repository is the cornerst
 ## 🧬 What is C-Project?
 C-Project is an open-source blockchain initiative that aims to revolutionize the energy sector through a novel Proof of Generation (PoG) consensus mechanism. By leveraging renewable energy generation as a validation method, C-Project promotes sustainability, reduces carbon footprints, and creates a decentralized, secure, and transparent ecosystem for energy infrastructure, DeFi, and beyond.
 
-* **Verifiable Sustainability:** Employs a novel Proof-of-Generation (PoG) consensus whose integrity is guaranteed through a robust multi-layer validation mechanism, combining direct energy measurement with contextual and environmental data to ensure the veracity of reported generation (see [Architecture](📁 docs/architecture.md)).
+* **Verifiable Sustainability:** Employs a novel Proof-of-Generation (PoG) consensus whose integrity is guaranteed through a robust multi-layer validation mechanism, combining direct energy measurement with contextual and environmental data to ensure the veracity of reported generation (see [Architecture](📁 docs/architecture.html)).
 
 ## 🌍 Our Philosophy
 C-Project is driven by a vision of environmental sustainability, technological innovation, and community empowerment. We believe in the power of open-source collaboration to solve global challenges. Our approach emphasizes transparency, inclusivity, and a meritocratic governance model where every contribution counts.
@@ -23,7 +23,7 @@ The LandingDocs repository serves multiple key purposes:
 ```
 Landingdocs/
 ├── 📜 README.md                # General introduction and documentation
-├── 📜 [CONTRIBUTING.md](CONTRIBUTING.md)          # Contribution guidelines
+├── 📜 [CONTRIBUTING.md](CONTRIBUTING.html)          # Contribution guidelines
 ├── 📜 CODE_OF_CONDUCT.md       # Contributor code of conduct
 ├── 📜 SECURITY.md              # Security guidelines and vulnerability reporting
 ├── 📜 TROUBLESHOOTING.md       # Common issues and FAQ
