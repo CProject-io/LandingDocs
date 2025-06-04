@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/**'
       - 'assets/diagrams/**'
+      - 'assets/logos/**'
 
 jobs:
   generate-index:
