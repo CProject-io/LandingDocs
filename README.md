@@ -19,43 +19,7 @@ The LandingDocs repository serves multiple key purposes:
 - 🛡️ **Security & Best Practices**: Guidelines for maintaining a secure, resilient, and efficient codebase.
 - 🚀 **Roadmap & Vision**: Transparency into the future development plans and strategic goals of C-Project.
 
-## 📂 Repository Structure
-```
-Landingdocs/
-├── 📜 README                  # General introduction and documentation
-├── 📜 CONTRIBUTING            # Contribution guidelines
-├── 📜 CODE_OF_CONDUCT         # Contributor code of conduct
-├── 📜 SECURITY                # Security guidelines and vulnerability reporting
-├── 📜 TROUBLESHOOTING         # Common issues and FAQ
-├── 📁 docs/                    # Main documentation
-│   ├── architecture.md         # System architecture
-│   ├── installation.md         # Installation guide
-│   ├── usage.md                # How to use the platform
-│   ├── api/                    # API documentation
-│   │   ├── overview.md         # API introduction
-│   │   ├── endpoints.md        # Endpoint details
-│   │   ├── authentication.md   # Authentication methods
-│   ├── governance.md           # Project governance strategy
-│   ├── roadmap.md              # Future development roadmap
-├── 📁 wikis/                   # Additional information
-│   ├── history.md              # Project history and evolution
-│   ├── philosophy.md           # Project vision and principles
-│   ├── best-practices.md       # Development best practices
-├── 📁 policies/                # Project policies
-│   ├── repository-management.md # Repository management strategy
-│   ├── code-review.md          # Code review process
-│   ├── security-policy.md      # Code and data security policy
-├── 📁 assets/                  # Graphics and multimedia resources
-│   ├── logos/                  # Project logos
-│   ├── diagrams/               # Technical and architectural diagrams
-├── 📁 templates/               # Contribution templates
-│   ├── issue_template.md       # Issue reporting format
-│   ├── pull_request_template.md # Pull request format
-├── 📁 scripts/                 # Automation tools
-│   ├── setup.sh                # Initial setup script
-│   ├── deploy.sh               # Deployment script
-
-## 📄 Landing Docs
+## 📂 Repository Structure & 📄 Landing Docs
 
 - [README](README.html)
 - [Contributing Guidelines](CONTRIBUTING.html)
@@ -102,7 +66,7 @@ Landingdocs/
 ## 📁 Scripts (`/scripts`)
 
 - [Scripts](scripts/index.html)
-```
+
 
 ## 🤝 Get Involved!
 We invite developers, researchers, and enthusiasts to join us in building a more sustainable and decentralized future. Whether through code, documentation, or community engagement, your contribution is valuable to C-Project.
