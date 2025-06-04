@@ -1,0 +1,42 @@
+name: Auto-generate folder index
+
+on:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'assets/diagrams/**'
+
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate index for /scripts
+        run: |
+          echo "# 📜 Scripts" > scripts/index.md
+          echo "" >> scripts/index.md
+          for file in scripts/*.sh; do
+            [ -f "$file" ] || continue
+            name=$(basename "$file")
+            echo "- [$name]($name)" >> scripts/index.md
+          done
+
+      - name: Generate index for /assets/diagrams
+        run: |
+          echo "# 🖼 Diagrams" > assets/diagrams/index.md
+          echo "" >> assets/diagrams/index.md
+          for img in assets/diagrams/*; do
+            [ -f "$img" ] || continue
+            name=$(basename "$img")
+            echo "![${name}](${name})" >> assets/diagrams/index.md
+          done
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add scripts/index.md assets/diagrams/index.md
+          git commit -m "Update auto-generated index.md"
+          git push
