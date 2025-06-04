@@ -77,3 +77,4 @@ Collaborations and donations are fundamental pillars for the success of C-Projec
 ---
 
 For more information on how to collaborate or make a donation, visit our official website or contact us through our community channels.
+[← Back to Landing Page](https://cproject.io)
