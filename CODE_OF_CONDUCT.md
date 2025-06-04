@@ -4,3 +4,4 @@
 - Avoid harassment, discrimination, and toxic behavior.
 - Report violations to maintainers via hello@cproject.io .
 
+[← Back to Landing Page](https://cproject.io)
