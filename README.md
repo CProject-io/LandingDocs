@@ -80,4 +80,6 @@ Thank you for being part of this journey!
 ---
 🚀 Together, let's create a carbon-neutral and innovative blockchain ecosystem with C-Project!
 
+[← Back to Landing Page](https://cproject.io)
+
 
