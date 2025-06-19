@@ -1,24 +1,24 @@
-# Mecanismo de Consenso: Prueba de Generación (Proof-of-Generation - PoG)
+# Consensus Mechanism: Proof-of-Generation (PoG)
 
-## ¿Qué es Proof-of-Generation?
+## What is Proof-of-Generation?
 
-Proof-of-Generation (PoG) es el innovador mecanismo de consenso que impulsa el ecosistema C-Project. A diferencia de los modelos tradicionales como Proof-of-Work (PoW) o Proof-of-Stake (PoS), la seguridad y validación de la red C-Project no se basan en el consumo computacional masivo de energía ni en la acumulación de capital.
+Proof-of-Generation (PoG) is the innovative consensus mechanism that powers the C-Project ecosystem. Unlike traditional models like Proof-of-Work (PoW) or Proof-of-Stake (PoS), the security and validation of the C-Project network are not based on massive energy consumption or capital accumulation.
 
-En su lugar, PoG se fundamenta en la **generación verificable de energía a partir de fuentes renovables**. Es un cambio de paradigma: de un consenso que *cuesta* energía a uno que *nace* de ella.
+Instead, PoG is founded on the **verifiable generation of energy from renewable sources**. It's a paradigm shift: from a consensus that *costs* energy to one that is *born* from it.
 
-## ¿Cómo Funciona?
+## How Does It Work?
 
-El PoG opera sobre la red de nodos físicos autónomos de C-Project. Cada nodo está equipado con su propio sistema de generación (paneles solares, turbinas eólicas) y almacenamiento de energía. El proceso se puede resumir en los siguientes pasos:
+PoG operates on C-Project's network of autonomous physical nodes. Each node is equipped with its own renewable energy generation (solar panels, wind turbines) and storage system. The process can be summarized in the following steps:
 
-1.  **Generación y Medición:** El nodo genera energía renovable. Sensores y sistemas de monitoreo integrados miden de forma continua la cantidad de energía producida y consumida.
-2.  **Reporte a la Red:** Periódicamente, el nodo envía un reporte de su generación neta de energía a la blockchain. Este reporte es su "prueba de generación".
-3.  **Validación Multi-capa:** Para asegurar la veracidad de los reportes y prevenir fraudes, C-Project utiliza un sistema de validación robusto. Esto puede incluir la corroboración de datos con oráculos climáticos externos, la validación cruzada entre nodos cercanos y, en fases futuras, el uso de datos de estaciones meteorológicas integradas en los propios nodos.
-4.  **Selección de Validadores y Recompensas:** Los nodos que demuestran una generación de energía consistente y verificable se vuelven elegibles para proponer y validar bloques. Las recompensas de la red (en el token nativo de C-Project) se distribuyen en función de esta contribución energética, incentivando directamente la inversión en infraestructura de energía limpia.
+1.  **Generation and Measurement:** The node generates renewable energy. Integrated sensors and monitoring systems continuously measure the amount of energy produced and consumed.
+2.  **Reporting to the Network:** Periodically, the node submits a report of its net energy generation to the blockchain. This report is its "proof of generation."
+3.  **Multi-Layer Validation:** To ensure the veracity of reports and prevent fraud, C-Project uses a robust validation system. This may include corroborating data with external weather oracles, cross-validation between nearby nodes, and, in future phases, using data from integrated weather stations on the nodes themselves.
+4.  **Validator Selection and Rewards:** Nodes that demonstrate consistent and verifiable energy generation become eligible to propose and validate blocks. Network rewards (in C-Project's native token) are distributed based on this energy contribution, directly incentivizing investment in clean energy infrastructure.
 
-## ¿Por Qué es Importante el PoG?
+## Why is PoG Important?
 
-* **Sostenibilidad Real:** PoG no solo es "carbono neutral", sino que es "carbono negativo" en espíritu. Incentiva activamente la expansión de la capacidad de generación de energía renovable a nivel global.
-* **Valor Intrínseco:** Al vincular la creación de recompensas y la seguridad de la red al costo real y al esfuerzo físico de producir energía, el token de C-Project obtiene un respaldo tangible e intrínseco, más allá de la pura especulación.
-* **Seguridad y Descentralización:** Al eliminar la necesidad de granjas de minería centralizadas o grandes capitales para el staking, PoG fomenta una red de validadores más distribuida geográficamente y accesible, aumentando la resiliencia y la resistencia a la censura.
+* **True Sustainability:** PoG is not just "carbon neutral"; it is "carbon negative" in spirit. It actively incentivizes the expansion of renewable energy generation capacity on a global scale.
+* **Intrinsic Value:** By linking reward creation and network security to the real cost and physical effort of producing energy, the C-Project token gains a tangible and intrinsic backing, moving beyond pure speculation.
+* **Security and Decentralization:** By eliminating the need for centralized mining farms or large capital for staking, PoG fosters a more geographically distributed and accessible network of validators, increasing resilience and censorship resistance.
 
-PoG es más que un algoritmo de consenso; es el motor de una economía circular, sostenible y autónoma que impulsa la totalidad del ecosistema C-Project.
+PoG is more than a consensus algorithm; it's the engine of a circular, sustainable, and autonomous economy that powers the entire C-Project ecosystem.
