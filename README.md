@@ -30,6 +30,7 @@ The LandingDocs repository serves multiple key purposes:
 ## 📁 Docs (`/docs`)
 
 - [System Architecture](📁 docs/architecture.html)
+- [Node OS & Parallel Network](📁 docs/os-and-parallel-network.html)
 - [Installation Guide](📁 docs/installation.html)
 - [Usage Guide](📁 docs/usage.html)
 - [Governance](📁 docs/governance.html)
