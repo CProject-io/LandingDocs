@@ -1,5 +1,7 @@
 # C-Project Node OS and the Parallel Network Layer
 
+> See [How It Works](how-it-works.md) for a diagram of the mechanisms described below, including an interactive version.
+
 ## 1. Introduction
 
 This document fills a gap between C-Project's stated vision and its existing technical documents: it describes two components that are implied by [`architecture.md`](architecture.md) and [`network`](https://github.com/CProject-io/network) but were never written down explicitly:

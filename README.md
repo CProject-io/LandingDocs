@@ -31,6 +31,7 @@ The LandingDocs repository serves multiple key purposes:
 
 - [System Architecture](📁 docs/architecture.html)
 - [Node OS & Parallel Network](📁 docs/os-and-parallel-network.html)
+- [How It Works (diagrams)](📁 docs/how-it-works.html)
 - [Installation Guide](📁 docs/installation.html)
 - [Usage Guide](📁 docs/usage.html)
 - [Governance](📁 docs/governance.html)
